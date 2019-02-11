@@ -1,0 +1,76 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 200px;
+}
+
+@font-face {
+    font-family: MyriadProCondensed;
+    src: url("/src/fonts/MyriadPro-Cond.otf");
+}
+
+@font-face {
+    font-family: MyriadProCondensedItalic;
+    src: url("/src/fonts/MyriadPro-CondIt.otf");
+}
+
+/* .repository {
+  box-shadow: 0px 1px 3px #111111;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: azure;
+  margin: 10px;
+} */
+
+.repository-selected {
+  cursor: pointer;
+  background-color: azure;
+  margin: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 3px solid gray;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 1px 3px #111111;
+  font-family: MyriadProCondensed;
+  font-size: 17px;
+}
+
+.repository-notselected {
+  cursor: pointer;
+  background-color: azure;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 1px 3px #111111;
+  font-family: MyriadProCondensed;
+  font-size: 17px;
+}
+
+header {
+  box-shadow: 0px 1px 3px #111111;
+  background-color:rgb(243, 255, 191);
+  position: relative;
+  display: block;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  height: 200px;
+
+}

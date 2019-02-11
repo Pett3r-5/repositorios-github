@@ -1,0 +1,7 @@
+<div
+    ng-click="select($event, rep)"
+    ng-repeat="rep in repositories track by rep.id"
+    ng-class="{'repository-selected': !!rep.selected, 'repository-notselected': !rep.selected}"
+>
+    {{rep.name}}
+</div>

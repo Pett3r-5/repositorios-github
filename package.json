@@ -1,0 +1,29 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "main": "app-angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/http-server/bin/http-server -a localhost -p 3010 -c-1 -o"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "angular-mocks": "^1.7.7",
+    "express": "^4.16.4",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "angular": "^1.7.7",
+    "angular-route": "^1.7.7",
+    "angular-ui-router": "^1.0.20",
+    "jasmine-core": "^3.3.0",
+    "karma": "^4.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-spec-reporter": "0.0.32"
+  }
+}
