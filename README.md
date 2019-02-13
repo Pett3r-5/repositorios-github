@@ -10,6 +10,8 @@ Iniciando a aplicação:
 
 Dentro da pasta raiz da aplicação:
 npm install
+
+
 npm start
 
 (servidor local rodando na porta 3010; caso a porta já esteja sendo utilizada, trocar no comando scripts.start dentro do package.json)
