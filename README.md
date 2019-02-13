@@ -9,6 +9,8 @@ npm install -g karma-cli
 Iniciando a aplicação:
 
 Dentro da pasta raiz da aplicação:
+
+
 npm install
 
 
@@ -18,4 +20,6 @@ npm start
 
 
 Pra iniciar o karma:
+
+
 karma start
